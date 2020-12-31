@@ -10,7 +10,7 @@ static LOCALE_TO_RUN: &'static str = "en_US";
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
-    println!("Hello, world!");
+    println!("Waiting for LOL to start.");
     let mut system = sysinfo::System::new();
 
     loop {
