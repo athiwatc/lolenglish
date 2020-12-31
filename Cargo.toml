@@ -1,0 +1,11 @@
+[package]
+name = "lolenglish"
+version = "0.1.0"
+authors = ["Athiwat Chunlakhan <731394+athiwatc@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sysinfo = "0.15.3"
+tokio = { version = "1.0.1", features = ["full"] }
